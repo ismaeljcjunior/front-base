@@ -1,10 +1,10 @@
 
 
-export const cInputText = () => {
+export const CInputText = () => {
 
     return (
         <>
-            cInputText
+            CInputText
         </>
     )
 }
