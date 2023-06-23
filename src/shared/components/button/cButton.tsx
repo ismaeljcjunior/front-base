@@ -1,7 +1,7 @@
 import { Button } from 'antd';
-import { iCButtonProps } from '../../interfaces/interfaces';
+import { ICButtonProps } from '../../interfaces/interfaces';
 
-export const CButton: React.FC<iCButtonProps> = ({ texto, onClick }) => {
+export const CButton: React.FC<ICButtonProps> = ({ texto, onClick }) => {
     return (
         <Button onClick={onClick}>
             {texto}
